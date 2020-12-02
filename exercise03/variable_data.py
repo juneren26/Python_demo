@@ -230,3 +230,12 @@ print(set6.issuperset(set7))
 # 9.更新
 set6.update(set7)
 print(set6)
+
+
+def match(a,b):
+    if a > b:
+        return a
+    elif a < b:
+        return b
+    else:
+        return a
